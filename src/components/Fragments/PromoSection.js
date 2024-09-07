@@ -75,8 +75,7 @@ const PromoSection = ({ handleShowDetailPromo }) => {
               onDragStart={handleDragStart}
               className="w-[95%] cursor-scale cursor-default lg:cursor-none h-48 xl:h-60 overflow-hidden bg-white dark:bg-primaryblack border border-white dark:border-primaryblack hover:border-primaryred dark:hover:border-primaryred cursor-pointer text-primaryblack rounded-xl"
             >
-              {promo.imageUrl.startsWith("https://") &&
-              (promo.imageUrl.includes(".jpg") ||
+              {(promo.imageUrl.includes(".jpg") ||
                 promo.imageUrl.includes(".png") ||
                 promo.imageUrl.includes("images")) ? (
                 <img
