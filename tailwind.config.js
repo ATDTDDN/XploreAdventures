@@ -23,6 +23,13 @@ module.exports = {
         yellowhover: "#F19101",
         primarygreen: "#10b981",
         primarygray: "#5E6282",
+        // Add the colors used in the Itinerary component
+        gray: {
+          100: '#f3f4f6', // Or your preferred light gray shade
+        },
+        blue: {
+          50: '#eff6ff',  // Or your preferred light blue shade
+        }
       },
       boxShadow: {
         'card': '0 35px 50px -26px rgba(0, 0, 0, 0.1)',

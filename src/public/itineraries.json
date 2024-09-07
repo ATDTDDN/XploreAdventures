@@ -1,0 +1,72 @@
+[
+    {
+      "title": "Kedarkantha",
+      "description": "A 6-day trek through the Kedarkantha peak, offering stunning views of snow-capped Himalayan ranges.",
+      "imageUrls": [
+        "/images/Kedarkantha.jpg",
+        "/images/tungnath.jpg"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "description": "Arrival at Sankri.",
+          "detailedDescription": "Roll call & Pick up from Delhi at 1-2 AM & Pick up from Prince Chowk, Dehradun at 7 AM. Reach Sankri and check in to the campsite. Dinner & Overnight stay at Sankri.",
+          "distance": "420 KMS from Delhi, 200 KMS from Dehradun",
+          "duration": "12 HRS from Delhi, 8-9 HRS from Dehradun",
+          "highlights": ["Arrival at Sankri", "Check-in to campsite", "Dinner & Overnight stay"],
+          "altitude": "6,400 ft"
+        },
+        {
+          "dayNumber": 2,
+          "description": "Trek to Juda Ka Talab.",
+          "detailedDescription": "Breakfast & start the hike from Saur Village & reach half-frozen Juda Ka Talab (lake). Enjoy snacks after the trek. Explore the area & indulge in outdoor activities. Dinner & Overnight stay at Juda Ka Talab. Stargaze, if you want.",
+          "distance": "4 KMS",
+          "duration": "3-4 HRS",
+          "highlights": ["Trek to Juda Ka Talab", "Explore the area", "Stargazing"],
+          "altitude": "9,100 ft"
+        },
+        {
+          "dayNumber": 3,
+          "description": "Trek to Kedarkantha base.",
+          "detailedDescription": "Post breakfast, we will start our trek to the Kedarkantha base camp. We will pass through beautiful pine forests and meadows. Reach the base camp and enjoy the mesmerizing views of the surrounding peaks. Dinner and overnight stay at the base camp.",
+          "distance": "4 KMS",
+          "duration": "4-5 HRS",
+          "highlights": ["Trek through pine forests", "Reach Kedarkantha base camp", "Mesmerizing views"],
+          "altitude": "11,250 ft"
+        },
+        {
+          "dayNumber": 4,
+          "description": "Summit Kedarkantha peak.",
+          "detailedDescription": "Early morning wake-up call for the summit climb. We will start our trek to the Kedarkantha peak (12,500 ft). Enjoy the breathtaking 360-degree view of the Himalayan ranges from the summit. Descend back to the base camp. Dinner & overnight stay at the base camp.",
+          "distance": "6 KMS (round trip)",
+          "duration": "6-7 HRS",
+          "highlights": ["Summit climb", "360-degree Himalayan views", "Descend to base camp"],
+          "altitude": "12,500 ft"
+        },
+        {
+          "dayNumber": 5,
+          "description": "Trek down to Sankri.",
+          "detailedDescription": "Post breakfast, we will start our descent back to Sankri. Reach Sankri and enjoy the bonfire with fellow trekkers. Dinner and overnight stay at Sankri.",
+          "distance": "7 KMS",
+          "duration": "4-5 HRS",
+          "highlights": ["Descend to Sankri", "Bonfire", "Overnight stay at Sankri"],
+          "altitude": "6,400 ft"
+        },
+        {
+          "dayNumber": 6,
+          "description": "Departure.",
+          "detailedDescription": "Post breakfast, check out from the campsite and proceed towards Dehradun. Reach Dehradun by evening. Tour ends with happy memories.",
+          "distance": "200 KMS from Dehradun",
+          "duration": "8-9 HRS from Dehradun",
+          "highlights": ["Check out from campsite", "Departure from Sankri", "Reach Dehradun by evening"]
+        }
+      ],
+      "maxAltitude": "12,500 ft",
+      "difficulty": "Easy to Moderate",
+      "totalDistance": "Approx. 20 Kms",
+      "bestTimeToVisit": "Mid-December to Mid-April (Winter)",
+      "geographicalCoordinates": "30.7578° N, 78.4707° E",
+      "inclusions": ["Trek Guide & Staff/Helpers", "Camp Stay", "Meals as per itinerary", "Medical Services"],
+      "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities."]
+    }
+  ]

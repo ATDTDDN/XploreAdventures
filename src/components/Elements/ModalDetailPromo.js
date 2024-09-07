@@ -86,7 +86,7 @@ const ModalDetailPromo = ({
                       </div>
                       <div className="flex flex-col items-start justify-between gap-1 xs:items-end xs:gap-0">
                         <a
-                          href="/itinerary-page" // Update the link to your itinerary page
+                          href={`/itinerary?title=${selectedPromo.title}`} // Update the link to your itinerary page
                           className="text-primaryblue dark:text-primaryyellow underline"
                         >
                           View Itinerary
