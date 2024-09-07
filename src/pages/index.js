@@ -27,7 +27,7 @@ const Index = () => {
         <HeaderSection />
         <FacilitiesSection />
         <PromoSection handleShowDetailPromo={handleShowDetailPromo} />
-        <DestinationSection />
+        {/* <DestinationSection /> */}
         <BannerSection />
         <FooterSection />
       </div>

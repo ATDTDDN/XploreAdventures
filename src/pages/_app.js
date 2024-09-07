@@ -7,8 +7,8 @@ export default function App({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <Head>
-        <title>MeTime Travel</title>
-        <link rel="icon" href="/favicon-metime-travel.ico" />
+        <title>XploreAdventures</title>
+        <link rel="icon" href="/icon_2.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
       </Head>
       <Component {...pageProps} />

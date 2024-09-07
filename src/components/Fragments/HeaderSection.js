@@ -1,22 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import useGetData from "@/Hooks/useGetData";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { useSelector } from "react-redux";
+import bannersData from "../../public/banners.json";
 
 const HeaderSection = () => {
   const router = useRouter();
-  const [banners, setBanners] = useState([]);
+  const [banners, setBanners] = useState(bannersData.data);
   const [destinations, setDestinations] = useState([]);
-  const { getData } = useGetData();
   const isDark = useSelector((state) => state.theme.isDark);
-
-  useEffect(() => {
-    getData("banners", (res) => setBanners(res.data.data));
-    getData("activities", (res) => setDestinations(res.data.data));
-  }, []);
 
   return (
     <div className="relative z-30 flex-wrap items-center w-full pt-20 sm:pt-14 md:pt-16 xl:pt-20 sm:flex h-fit">
@@ -35,8 +29,7 @@ const HeaderSection = () => {
               key={index}
               className="flex items-center w-full h-[130px] md:h-[140px] lg:h-[170px] xl:h-[220px] overflow-hidden bg-white text-primaryblack"
             >
-              {banner.imageUrl.startsWith("https://") &&
-              (banner.imageUrl.includes(".jpg") ||
+              {(banner.imageUrl.includes(".jpg") ||
                 banner.imageUrl.includes(".png") ||
                 banner.imageUrl.includes("images")) ? (
                 <img

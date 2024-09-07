@@ -1,0 +1,42 @@
+{
+    "code": "200",
+    "status": "OK",
+    "message": "Success",
+    "data": [
+        {
+            "id": "c364a829-cc56-48b3-9ad6-7e9f72c35550",
+            "name": "Kedarkantha",
+            "imageUrl": "/images/Kedarkantha.jpg",
+            "createdAt": "2024-08-11T00:13:43.625Z",
+            "updatedAt": "2024-09-06T15:23:07.933Z"
+        },
+        {
+            "id": "d7f3b1c1-4b3d-4b3e-8b3d-7e9f72c35550",
+            "name": "Roopkund",
+            "imageUrl": "/images/roopkund.jpg",
+            "createdAt": "2024-08-12T00:13:43.625Z",
+            "updatedAt": "2024-09-06T15:23:07.933Z"
+        },
+        {
+            "id": "e8a2c3b2-5c6d-4a3f-9c6d-7e9f72c35550",
+            "name": "Harkidun",
+            "imageUrl": "/images/harkidun.jpg",
+            "createdAt": "2024-08-13T00:13:43.625Z",
+            "updatedAt": "2024-09-06T15:23:07.933Z"
+        },
+        {
+            "id": "f9b4d4e3-6d7e-4c3g-8d7e-7e9f72c35550",
+            "name": "Tungnath",
+            "imageUrl": "/images/tungnath.jpg",
+            "createdAt": "2024-08-14T00:13:43.625Z",
+            "updatedAt": "2024-09-06T15:23:07.933Z"
+        },
+        {
+            "id": "g0c5e5f4-7e8f-4d3h-9e8f-7e9f72c35550",
+            "name": "Valley of Flowers",
+            "imageUrl": "/images/valley_of_flowers.jpg",
+            "createdAt": "2024-08-15T00:13:43.625Z",
+            "updatedAt": "2024-09-06T15:23:07.933Z"
+        }
+    ]
+}

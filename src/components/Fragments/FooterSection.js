@@ -11,11 +11,11 @@ const FooterSection = () => {
     <div className="flex flex-col items-center gap-12 pb-6 text-[10px] lg:text-[11px] xl:text-[13px]">
       <div className="flex flex-wrap w-full gap-5 sm:gap-0 sm:flex h-fit">
         <div className="flex flex-col items-center sm:items-start gap-3 lg:gap-4 xl:gap-6 w-full sm:w-[40%]">
-          <Image
-            className="h-7 w-fit lg:h-8 xl:h-9"
-            src={isDark ? "/images/Logo-dark.png" : "/images/Logo.png"}
-            width={500}
-            height={500}
+        <Image
+            className="w-auto h-30 md:h-32 xl:h-34"
+            src={isDark ? "/images/Logo-dark.png" : "/images/logo_no_bg.jpg"}
+            width={1700}
+            height={1700}
           />
           <div className="flex flex-col w-full gap-1 text-center text-primarygray dark:text-slate-400 sm:text-left">
             <h1>Adventure awaits!</h1>
@@ -32,31 +32,24 @@ const FooterSection = () => {
               <div className="flex gap-2 lg:gap-3 xl:gap-4 text-[13px] lg:text-[14px] xl:text-[16px]">
                 <a
                   className="cursor-default cursor-scale lg:cursor-none"
-                  href="https://www.instagram.com/ihwanarfa"
+                  href="https://www.instagram.com/xploreadventures999"
                   target="_blank"
                 >
                   <i class="fa-brands fa-instagram hover:text-primaryred dark:hover:text-primaryyellow"></i>
                 </a>
                 <a
                   className="cursor-default cursor-scale lg:cursor-none"
-                  href="https://web.facebook.com/ihwan.arifandi.5"
+                  href="https://web.facebook.com/xploreadventures999"
                   target="_blank"
                 >
                   <i class="fa-brands fa-facebook-f hover:text-primaryred dark:hover:text-primaryyellow"></i>
                 </a>
                 <a
                   className="cursor-default cursor-scale lg:cursor-none"
-                  href="https://www.x.com/ihwanarfa"
+                  href="https://www.x.com/xploreadventures999"
                   target="_blank"
                 >
                   <i class="fa-brands fa-x-twitter hover:text-primaryred dark:hover:text-primaryyellow"></i>
-                </a>
-                <a
-                  className="cursor-default cursor-scale lg:cursor-none"
-                  href="https://www.tiktok.com/@ihwanarfa"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-tiktok hover:text-primaryred dark:hover:text-primaryyellow"></i>
                 </a>
               </div>
             </div>
@@ -64,9 +57,9 @@ const FooterSection = () => {
           <div className="flex flex-col gap-3 text-center lg:gap-4 xl:gap-6 sm:text-left">
             <h1 className="font-medium">Contact</h1>
             <div className="flex flex-col gap-2 xl:gap-3 text-primarygray dark:text-slate-400">
-              <h1>Salatiga, Indonesia</h1>
-              <h1>metimetravel@gmail.com</h1>
-              <h1>0858 7502 9000</h1>
+              <h1>Dehradun, Uttarakhand</h1>
+              <h1>xploreadventures999@gmail.com</h1>
+              <h1>9876543210</h1>
             </div>
           </div>
           <div className="flex flex-col gap-3 lg:gap-4 xl:gap-6">
@@ -80,29 +73,19 @@ const FooterSection = () => {
               >
                 Destinations
               </button>
-              <button
+              {/* <button
                 onClick={() => router.push("/promos")}
                 className="cursor-default cursor-scale lg:cursor-none hover:text-primaryred dark:hover:text-primaryyellow"
               >
                 Promos
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
       </div>
       <h1 className="text-gray-400 dark:text-slate-500 text-[9px] lg:text-[10px] xl:text-[12px] text-center">
-        <i class="fa-regular fa-copyright mr-1"></i>2024 MeTime Travel. All
+        <i class="fa-regular fa-copyright mr-1"></i>2024 XploreAdventures. All
         Rights Reserved
-        <span className="mx-2">|</span>
-        <span className="py-2 cursor-pointer cursor-scale lg:cursor-none hover:text-primaryblue">
-          <a
-            className="cursor-default cursor-scale lg:cursor-none"
-            href="https://github.com/ihwan4rfa"
-            target="_blank"
-          >
-            <i class="fa-brands fa-github mr-1"></i>ihwan4rfa
-          </a>
-        </span>
       </h1>
     </div>
   );

@@ -110,10 +110,10 @@ const Navbar = () => {
           className="cursor-default cursor-scale lg:cursor-none"
         >
           <Image
-            className="w-auto h-7 md:h-8 xl:h-9"
-            src={isDark ? "/images/Logo-dark.png" : "/images/Logo.jpeg"}
-            width={500}
-            height={500}
+            className="w-auto h-30 md:h-32 xl:h-34"
+            src={isDark ? "/images/Logo-dark.png" : "/images/logo_no_bg.jpg"}
+            width={1700}
+            height={1700}
           />
         </button>
         <button
