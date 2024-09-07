@@ -53,8 +53,7 @@ const ModalDetailPromo = ({
                   </h1>
                   {selectedPromo.imageUrl && (
                     <div className="w-[230px] xs:w-[300px] sm:w-[260px] xl:w-[300px] overflow-hidden rounded-lg h-[160px] lg:h-[180px] xl:h-[200px]">
-                      {selectedPromo.imageUrl.startsWith("https://") &&
-                      (selectedPromo.imageUrl.includes(".jpg") ||
+                      {(selectedPromo.imageUrl.includes(".jpg") ||
                         selectedPromo.imageUrl.includes(".png") ||
                         selectedPromo.imageUrl.includes("images")) ? (
                         <img
