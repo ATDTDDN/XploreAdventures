@@ -59,7 +59,7 @@ const index = () => {
         <HeaderSection />
         <FacilitiesSection />
         <PromoSection handleShowDetailPromo={handleShowDetailPromo} />
-        <DestinationSection handleShowDetailDestination={handleShowDetailDestination} />
+        {/* <DestinationSection handleShowDetailDestination={handleShowDetailDestination} /> */}
         <BannerSection />
         <FooterSection />
       </div>

@@ -6,14 +6,14 @@ const FacilitiesSection = () => {
   const isDark = useSelector((state) => state.theme.isDark);
 
   const iconList = {
-    icon1: "/images/icon-facility-1.png",
-    icon2: "/images/icon-facility-2.png",
-    icon3: "/images/icon-facility-3.png",
-    icon4: "/images/icon-facility-4.png",
+    icon1: "/images/trekking3.webp",
+    icon2: "/images/expert.jpg",
+    icon3: "/images/local_sight.webp",
+    icon4: "/images/reviews.png",
   };
 
   const iconListDark = {
-    icon1: "/images/icon-facility-1-dark.png",
+    icon1: "/images/trekking3.webp",
     icon2: "/images/icon-facility-2-dark.png",
     icon3: "/images/icon-facility-3-dark.png",
     icon4: "/images/icon-facility-4-dark.png",
@@ -62,7 +62,7 @@ const FacilitiesSection = () => {
               <div className="flex items-end justify-center w-full h-[40%]">
                 <Image
                   src={isDark ? iconListDark[key] : iconList[key]}
-                  className="w-auto h-12 lg:h-14 xl:h-16"
+                  className="w-auto h-26 lg:h-28 xl:h-30"
                   width={500}
                   height={500}
                   alt="Icon"
