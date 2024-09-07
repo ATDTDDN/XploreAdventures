@@ -70,7 +70,7 @@ const Navbar = () => {
   const linkList = {
     Home: "/",
     Destinations: "/destinations",
-    "Connect with us": "/promos",
+    "Connect with us": "/",
     Login: "/login_register",
   };
 
