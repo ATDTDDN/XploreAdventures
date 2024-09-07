@@ -4,7 +4,6 @@ import Image from "next/image";
 import ModalDetailDestination from "@/components/Elements/ModalDetailDestination";
 import { useDispatch } from "react-redux";
 import { setShowModal } from "@/redux/slice/showModalSlice";
-import promoData from "@/public/promos.json";
 import destinationsData from "@/public/destinations.json";
 
 const Index = () => {
@@ -27,7 +26,7 @@ const Index = () => {
   };
 
   const formatNumber = (number) => {
-    return `Rp${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
+    return `Rs ${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
   };
 
   const handleShowDetailDestination = async (destinationId) => {
@@ -81,14 +80,8 @@ const Index = () => {
                 <button
                   key={index}
                   onClick={() => handleShowDetailDestination(destination.id)}
-                  className="cursor-scale cursor-default lg:cursor-none w-full xs:w-[49%] md:w-[32%] mb-[1.5%] relative overflow-hidden bg-white dark:bg-primaryblack border border-white dark:border-primaryblack hover:border-primaryred dark:hover:border-primaryred text-primaryblack rounded-xl h-52 xl:h-64"
+                  className="cursor-scale cursor-default lg:cursor-none w-full xs:w-[49%] md:w-[32%] mb-[1.5%] relative overflow-hidden bg-white dark:bg-primaryblack border border-white dark:border-primaryblack hover:border-primaryred dark:hover:border-primaryred text-primaryblack rounded-xl h-56 xl:h-68" // Increased height
                 >
-                  <div className="flex text-[8px] lg:text-[9px] xl:text-[11px] items-center z-10 absolute bg-white dark:bg-primaryblack h-fit w-fit py-1 px-2 m-2 rounded-lg right-0">
-                    <i className="mr-1 fa-solid fa-star text-primaryyellow"></i>
-                    <h1 className="text-primarygray dark:text-slate-400 pt-[1px]">
-                      {destination.rating}
-                    </h1>
-                  </div>
                   {destination.imageUrls[0] &&
                   destination.imageUrls[0].startsWith("https://") &&
                   (destination.imageUrls[0].includes(".jpg") ||
@@ -96,18 +89,20 @@ const Index = () => {
                     destination.imageUrls[0].includes("images")) ? (
                     <img
                       src={destination.imageUrls[0]}
-                      className="object-cover relative w-full bg-slate-200 h-[76%] xl:h-[73%]"
+                      className="object-cover relative w-full bg-slate-200 h-[78%] xl:h-[75%]" // Adjusted image height
                     ></img>
                   ) : (
                     <Image
-                      src="/images/no-image.png"
+                      src="/images/KedarKantha.jpg"
                       className="object-cover relative w-full h-[80%]"
                       width={500}
                       height={500}
                       alt="Unknown Profile"
                     />
                   )}
-                  <div className="flex relative justify-between font-medium items-center w-full h-[24%] xl:h-[27%] px-4">
+                  <div className="flex relative justify-between font-medium items-center w-full h-[22%] xl:h-[25%] px-4">
+                    {" "}
+                    {/* Adjusted height */}
                     <div className="flex flex-col w-4/6 gap-[3px] xl:gap-1 text-start">
                       <h1 className="capitalize dark:text-slate-200">
                         {destination.title}
