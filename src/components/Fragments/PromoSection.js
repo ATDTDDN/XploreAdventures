@@ -16,7 +16,7 @@ const PromoSection = ({ handleShowDetailPromo }) => {
   }, []);
 
   const formatNumber = (number) => {
-    return `Rp${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
+    return `Rs ${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
   };
 
   const responsive = {
@@ -37,6 +37,11 @@ const PromoSection = ({ handleShowDetailPromo }) => {
     },
   };
 
+  // New function to find promo by ID
+  const getPromoById = (id) => {
+    return promos.find((promo) => promo.id === id);
+  };
+
   return (
     <div className="relative z-20 flex flex-col w-full gap-5 lg:gap-7 xl:gap-10 -mt-12 lg:-mt-10 xl:-mt-8 h-fit text-[10px] lg:text-[11px] xl:text-[13px]">
       <div className="absolute z-0 bg-primaryyellow dark:bg-primaryblue dark:bg-opacity-20 bg-opacity-10 rounded-full w-[250px] h-[250px] lg:w-[500px] lg:h-[400px] blur-3xl -top-5 -left-20"></div>
@@ -45,7 +50,7 @@ const PromoSection = ({ handleShowDetailPromo }) => {
           Choose Your Perfect Destination
         </h1>
         <button
-          onClick={() => router.push("/promos")}
+          onClick={() => router.push("/destinations")}
           type="button"
           className="px-3 py-2 font-medium text-white rounded-lg cursor-default cursor-scale lg:cursor-none xl:px-5 xl:py-3 w-fit bg-primaryyellow hover:bg-yellowhover dark:bg-primaryred dark:hover:bg-redhover"
         >
@@ -77,7 +82,8 @@ const PromoSection = ({ handleShowDetailPromo }) => {
                 <img
                   src={promo.imageUrl}
                   className="object-cover w-full bg-slate-200 h-[80%]"
-                ></img>
+                  alt={promo.title}
+                />
               ) : (
                 <Image
                   src="/images/no-image.png"
