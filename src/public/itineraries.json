@@ -4,7 +4,8 @@
       "description": "A 6-day trek through the Kedarkantha peak, offering stunning views of snow-capped Himalayan ranges.",
       "imageUrls": [
         "/images/Kedarkantha.jpg",
-        "/images/tungnath.jpg"
+        "/images/Kedarkantha_1.jpg",
+        "/images/Kedarkantha_2.jpg"
       ],
       "days": [
         {
@@ -68,5 +69,175 @@
       "geographicalCoordinates": "30.7578° N, 78.4707° E",
       "inclusions": ["Trek Guide & Staff/Helpers", "Camp Stay", "Meals as per itinerary", "Medical Services"],
       "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities."]
+    },
+    {
+      "title": "Har Ki Dun",
+      "description": "A 7-day trek to the cradle of Gods, Har Ki Dun valley, offering breathtaking views of snow-capped Himalayan peaks and ancient villages.",
+      "imageUrls": [
+        "/images/harkidun.jpg",
+        "/images/Har_Ki_Dun_1.jpg",
+        "/images/Har_Ki_Dun_2.jpg"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "description": "Arrival at Sankri.",
+          "detailedDescription": "Roll call & Pick up from Delhi at 1-2 AM & Pick up from Prince Chowk, Dehradun at 7 AM. Reach Sankri and check in to the campsite. Dinner & Overnight stay at Sankri.",
+          "distance": "420 KMS from Delhi, 200 KMS from Dehradun",
+          "duration": "12 HRS from Delhi, 8-9 HRS from Dehradun",
+          "highlights": ["Arrival at Sankri", "Check-in to campsite", "Dinner & Overnight stay"],
+          "altitude": "6,400 ft"
+        },
+        {
+          "dayNumber": 2,
+          "description": "Trek to Taluka.",
+          "detailedDescription": "Post breakfast, we will start our trek to Taluka. We will pass through dense pine forests and cross the Supin River. Reach Taluka and enjoy the scenic beauty. Dinner and overnight stay at Taluka.",
+          "distance": "14 KMS",
+          "duration": "6-7 HRS",
+          "highlights": ["Trek through pine forests", "Cross Supin River", "Reach Taluka"],
+          "altitude": "9,600 ft"
+        },
+        {
+          "dayNumber": 3,
+          "description": "Trek to Osla.",
+          "detailedDescription": "Post breakfast, we will start our trek to Osla. We will pass through beautiful meadows and traditional villages. Reach Osla and explore the village. Dinner and overnight stay at Osla.",
+          "distance": "11 KMS",
+          "duration": "5-6 HRS",
+          "highlights": ["Trek through meadows", "Explore traditional villages", "Reach Osla"],
+          "altitude": "10,000 ft"
+        },
+        {
+          "dayNumber": 4,
+          "description": "Trek to Har Ki Dun.",
+          "detailedDescription": "Post breakfast, we will start our trek to Har Ki Dun. We will pass through dense forests and cross the river. Reach Har Ki Dun and enjoy the mesmerizing views of the surrounding peaks. Dinner and overnight stay at Har Ki Dun.",
+          "distance": "12 KMS",
+          "duration": "6-7 HRS",
+          "highlights": ["Trek through dense forests", "Cross the river", "Reach Har Ki Dun", "Mesmerizing views"],
+          "altitude": "11,700 ft"
+        },
+        {
+          "dayNumber": 5,
+          "description": "Explore Har Ki Dun & trek to Jaundhar Glacier.",
+          "detailedDescription": "Early morning wake-up call to explore Har Ki Dun valley. Post breakfast, we will start our trek to Jaundhar Glacier. Enjoy the breathtaking views of the glacier. Descend back to Har Ki Dun. Dinner & overnight stay at Har Ki Dun.",
+          "distance": "6 KMS (round trip)",
+          "duration": "5-6 HRS",
+          "highlights": ["Explore Har Ki Dun valley", "Trek to Jaundhar Glacier", "Breathtaking views", "Descend to Har Ki Dun"],
+          "altitude": "12,500 ft"
+        },
+        {
+          "dayNumber": 6,
+          "description": "Trek down to Osla.",
+          "detailedDescription": "Post breakfast, we will start our descent back to Osla. Reach Osla and enjoy the bonfire with fellow trekkers. Dinner and overnight stay at Osla.",
+          "distance": "12 KMS",
+          "duration": "5-6 HRS",
+          "highlights": ["Descend to Osla", "Bonfire", "Overnight stay at Osla"],
+          "altitude": "10,000 ft"
+        },
+        {
+          "dayNumber": 7,
+          "description": "Trek down to Sankri & Departure.",
+          "detailedDescription": "Post breakfast, we will start our descent back to Sankri. Reach Sankri and enjoy the bonfire with fellow trekkers. Check out from the campsite and proceed towards Dehradun. Reach Dehradun by evening. Tour ends with happy memories.",
+          "distance": "25 KMS, 200 KMS from Dehradun",
+          "duration": "6-7 HRS, 8-9 HRS from Dehradun",
+          "highlights": ["Descend to Sankri", "Bonfire", "Check out from campsite", "Departure from Sankri", "Reach Dehradun by evening"],
+          "altitude": "6,400 ft"
+        }
+      ],
+      "maxAltitude": "12,500 ft",
+      "difficulty": "Easy to Moderate",
+      "totalDistance": "Approx. 70 Kms",
+      "bestTimeToVisit": "Mid-March to June, September to November",
+      "geographicalCoordinates": "30.7379° N, 78.3069° E",
+      "inclusions": ["Trek Guide & Staff/Helpers", "Camp Stay", "Meals as per itinerary", "Medical Services"],
+      "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities."]
+    },
+    {
+      "title": "Valley of flowers",
+      "description": "An 8-day trek to the enchanting Valley of Flowers National Park, a UNESCO World Heritage Site, showcasing a vibrant tapestry of alpine flowers and breathtaking landscapes.",
+      "imageUrls": [
+        "/images/valley_of_flowers.jpg",
+        "/images/Valley_of_Flowers_1.jpg",
+        "/images/Valley_of_Flowers_2.jpg"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "description": "Arrival at Haridwar.",
+          "detailedDescription": "Roll call & Pick up from Delhi at 1-2 AM. Reach Haridwar and check in to the hotel. Dinner & Overnight stay at Haridwar.",
+          "distance": "220 KMS from Delhi",
+          "duration": "5-6 HRS from Delhi",
+          "highlights": ["Arrival at Haridwar", "Check-in to hotel", "Dinner & Overnight stay"],
+          "altitude": "1,000 ft"
+        },
+        {
+          "dayNumber": 2,
+          "description": "Drive to Joshimath.",
+          "detailedDescription": "Post breakfast, we will start our drive to Joshimath. We will pass through scenic landscapes and picturesque villages. Reach Joshimath and check in to the hotel. Dinner and overnight stay at Joshimath.",
+          "distance": "250 KMS",
+          "duration": "8-9 HRS",
+          "highlights": ["Drive to Joshimath", "Scenic landscapes", "Reach Joshimath"],
+          "altitude": "6,150 ft"
+        },
+        {
+          "dayNumber": 3,
+          "description": "Drive to Govindghat & trek to Ghangaria.",
+          "detailedDescription": "Post breakfast, we will start our drive to Govindghat. From Govindghat, we will start our trek to Ghangaria. We will pass through beautiful forests and cross the river. Reach Ghangaria and enjoy the scenic beauty. Dinner and overnight stay at Ghangaria.",
+          "distance": "25 KMS drive, 14 KMS trek",
+          "duration": "1 HR drive, 5-6 HRS trek",
+          "highlights": ["Drive to Govindghat", "Trek to Ghangaria", "Scenic beauty"],
+          "altitude": "10,200 ft"
+        },
+        {
+          "dayNumber": 4,
+          "description": "Explore Valley of Flowers.",
+          "detailedDescription": "Post breakfast, we will start our trek to the Valley of Flowers. We will pass through lush green meadows and witness a vibrant array of flowers. Explore the valley and enjoy the mesmerizing views. Descend back to Ghangaria. Dinner and overnight stay at Ghangaria.",
+          "distance": "5 KMS (round trip)",
+          "duration": "4-5 HRS",
+          "highlights": ["Trek to Valley of Flowers", "Lush green meadows", "Vibrant flowers", "Mesmerizing views"],
+          "altitude": "11,500 ft"
+        },
+        {
+          "dayNumber": 5,
+          "description": "Trek to Hemkund Sahib & back to Ghangaria.",
+          "detailedDescription": "Early morning wake-up call for the trek to Hemkund Sahib. We will pass through scenic landscapes and reach the holy shrine. Seek blessings and enjoy the serene atmosphere. Descend back to Ghangaria. Dinner & overnight stay at Ghangaria.",
+          "distance": "6 KMS (round trip)",
+          "duration": "6-7 HRS",
+          "highlights": ["Trek to Hemkund Sahib", "Scenic landscapes", "Seek blessings", "Descend to Ghangaria"],
+          "altitude": "14,100 ft"
+        },
+        {
+          "dayNumber": 6,
+          "description": "Trek down to Govindghat.",
+          "detailedDescription": "Post breakfast, we will start our descent back to Govindghat. Reach Govindghat and enjoy the scenic beauty. Dinner and overnight stay at Govindghat.",
+          "distance": "14 KMS",
+          "duration": "4-5 HRS",
+          "highlights": ["Descend to Govindghat", "Scenic beauty", "Overnight stay at Govindghat"],
+          "altitude": "6,000 ft"
+        },
+        {
+          "dayNumber": 7,
+          "description": "Drive to Joshimath.",
+          "detailedDescription": "Post breakfast, we will start our drive to Joshimath. Reach Joshimath and check in to the hotel. Dinner and overnight stay at Joshimath.",
+          "distance": "25 KMS",
+          "duration": "1 HR",
+          "highlights": ["Drive to Joshimath", "Reach Joshimath", "Overnight stay at Joshimath"],
+          "altitude": "6,150 ft"
+        },
+        {
+          "dayNumber": 8,
+          "description": "Drive to Haridwar & Departure.",
+          "detailedDescription": "Post breakfast, check out from the hotel and proceed towards Haridwar. Reach Haridwar by evening. Tour ends with happy memories.",
+          "distance": "250 KMS",
+          "duration": "8-9 HRS",
+          "highlights": ["Check out from hotel", "Departure from Joshimath", "Reach Haridwar by evening"]
+        }
+      ],
+      "maxAltitude": "14,100 ft",
+      "difficulty": "Easy to Moderate",
+      "totalDistance": "Approx. 54 Kms trek, 525 Kms drive",
+      "bestTimeToVisit": "Mid-June to September",
+      "geographicalCoordinates": "30.7333° N, 79.5833° E",
+      "inclusions": ["Trek Guide & Staff/Helpers", "Camp/Hotel Stay", "Meals as per itinerary", "Medical Services"],
+      "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities.", "Entry fees and permits for Valley of Flowers and Hemkund Sahib"]
     }
   ]

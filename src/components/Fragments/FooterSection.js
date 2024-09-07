@@ -12,7 +12,7 @@ const FooterSection = () => {
       <div className="flex flex-wrap w-full gap-5 sm:gap-0 sm:flex h-fit">
         <div className="flex flex-col items-center sm:items-start gap-3 lg:gap-4 xl:gap-6 w-full sm:w-[40%]">
         <Image
-            className="w-auto h-30 md:h-32 xl:h-34"
+            className="w-auto h-20 md:h-32 xl:h-34"
             src={isDark ? "/images/Logo-dark.png" : "/images/logo_no_bg.jpg"}
             width={1700}
             height={1700}

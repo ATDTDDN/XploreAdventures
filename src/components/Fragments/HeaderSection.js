@@ -51,7 +51,8 @@ const HeaderSection = () => {
       </div>
       <div className="absolute z-10 flex items-center gap-1 px-3 xl:px-4 xl:py-1 bg-black dark:bg-white rounded-lg backdrop-blur-sm bg-opacity-[0.15] dark:bg-opacity-[0.15] right-[10%] sm:right-2 xl:-right-5 bottom-40 lg:bottom-48 xl:bottom-64 rounded-br-2xl sm:rounded-br-3xl rounded-tl-2xl sm:rounded-tl-3xl">
         <h1 className=" text-[26px] lg:text-[29px] xl:text-[35px] font-bold text-primaryyellow">
-          {destinations.length}
+          {/* {destinations.length} */}
+          5
         </h1>
         <h1 className="leading-tight text-white text-[9px] lg:text-[10px] xl:text-[13px]">
           Destinations

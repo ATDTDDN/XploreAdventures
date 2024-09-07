@@ -8,7 +8,7 @@ export default function useCreate() {
                 body,
                 {
                     headers: {
-                        apiKey: "24405e01-fbc1-45a5-9f5a-be13afcd757c",
+                        apiKey: "",
                         Authorization: `Bearer ${localStorage.getItem("token")}`,
                     },
                 }

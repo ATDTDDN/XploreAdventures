@@ -62,7 +62,7 @@ const FacilitiesSection = () => {
               <div className="flex items-end justify-center w-full h-[40%]">
                 <Image
                   src={isDark ? iconListDark[key] : iconList[key]}
-                  className="w-auto h-26 lg:h-28 xl:h-30"
+                  className="w-auto h-20 lg:h-28 xl:h-30"
                   width={500}
                   height={500}
                   alt="Icon"

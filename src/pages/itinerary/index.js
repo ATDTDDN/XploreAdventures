@@ -56,7 +56,7 @@ const Itinerary = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div className="container mx-auto px-4 py-20">
+      <div className="container mx-auto px-4 pt-20 pb-8">
         <h1 className="text-4xl font-bold mb-4">{itinerary.title}</h1>
 
         <div className="mb-6">

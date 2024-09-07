@@ -45,7 +45,7 @@ const Modal = ({ title, onClose, onSubmit }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl w-full relative"> 
+      <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl w-full relative overflow-y-auto max-h-[90vh]"> 
         {/* Cross Button */}
         <button 
           onClick={onClose}
@@ -212,32 +212,34 @@ const Modal = ({ title, onClose, onSubmit }) => {
             </div>
           </div>
           {/* Buttons (span across all 3 columns) */}
-          <div className="md:col-span-3 flex justify-end"> 
-            <button
-              type="button"
-              onClick={handleReset}
-              className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded mr-2"
-            >
-              Reset
-            </button>
-            <button
-              type="button"
-              onClick={onClose}
-              className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2"
-            >
-              Cancel
-            </button>
-            <button
-                type="submit"
-                className="bg-primaryblue hover:bg-bluehover text-white font-bold py-2 px-4 rounded"
-                >
-                Submit
-            </button>
-            </div>
-        </form>
-      </div>
+        <div className="md:col-span-3 flex justify-end"> 
+          <button
+            type="button"
+            onClick={handleReset}
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded   
+ mr-2"
+          >
+            Reset
+          </button>
+          <button
+            type="button"
+            onClick={onClose}
+            className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2"
+          >
+            Cancel
+          </button>
+          <button
+            type="submit"
+            className="bg-primaryblue   
+ hover:bg-bluehover text-white font-bold py-2 px-4 rounded"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
-  );
+  </div>
+);
 };
 
 export default Modal;
