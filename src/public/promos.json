@@ -6,11 +6,11 @@
         {
             "id": "996a9149-b225-4166-a3bd-602d16dffc23",
             "title": "Nagtibba",
-            "description": "trip to legoland malysia",
+            "description": "Scenic trek with panoramic views and serene beauty.",
             "imageUrl": "",
-            "terms_condition": "max 3 people",
+            "terms_condition": "2 Days and 1 Night",
             "promo_code": "LEGO",
-            "promo_discount_price": 1000000,
+            "promo_discount_price": 4500,
             "minimum_claim_price": 100000,
             "createdAt": "2024-08-02T07:57:38.343Z",
             "updatedAt": "2024-09-06T16:51:03.130Z"
@@ -18,11 +18,11 @@
         {
             "id": "63e0cf1b-6c83-4ee3-b4b4-57ed9f408261",
             "title": "Kedarkantha",
-            "description": "Good Destination",
+            "description": "Scenic trek with stunning views and snowy peaks.",
             "imageUrl": "",
-            "terms_condition": "Free Parking Area",
+            "terms_condition": "5 Days and 4 Nights",
             "promo_code": "YYta123",
-            "promo_discount_price": 2000000,
+            "promo_discount_price": 4500,
             "minimum_claim_price": 500000,
             "createdAt": "2024-08-06T08:57:41.000Z",
             "updatedAt": "2024-09-06T16:51:12.507Z"
@@ -30,11 +30,11 @@
         {
             "id": "bfa30f62-640f-4992-93c7-22fa21fa0125",
             "title": "Har ki Dun",
-            "description": "jalan jalan ke negeri oppa",
+            "description": "Scenic trek through lush valleys and remote landscapes.",
             "imageUrl": "",
-            "terms_condition": "Max 2 people",
+            "terms_condition": "7 Days and 6 Nights",
             "promo_code": "oppa69",
-            "promo_discount_price": 300000,
+            "promo_discount_price": 4500,
             "minimum_claim_price": 400000,
             "createdAt": "2024-08-01T03:53:35.824Z",
             "updatedAt": "2024-09-06T16:51:21.265Z"
@@ -42,11 +42,11 @@
         {
             "id": "ea4ea4f6-acbd-41f8-8845-833cb915cc6d",
             "title": "Valley of flowers & Hemkund Sahib",
-            "description": "pergi ke tanah suci bareng keluarga",
+            "description": "Explore the beautiful Valley of Flowers and sacred Hemkund Sahib.",
             "imageUrl": "",
-            "terms_condition": "sai pakai sendal jangan nyeker",
+            "terms_condition": "6 Days and 5 Nights",
             "promo_code": "tawaf7x",
-            "promo_discount_price": 18000000,
+            "promo_discount_price": 4500,
             "minimum_claim_price": 30000000,
             "createdAt": "2024-08-01T03:59:40.030Z",
             "updatedAt": "2024-09-06T18:55:29.148Z"
@@ -54,11 +54,11 @@
         {
             "id": "3bbb9b4b-1151-491a-abfa-9541d9aa1cb1",
             "title": "Gaumukh Tapovan",
-            "description": "main bareng nana skin gajah",
+            "description": "Sacred trek in the Himalayas with stunning views of Mt. Shivling and Ganges' source.",
             "imageUrl": "",
-            "terms_condition": "good destination ",
+            "terms_condition": "7 Days and 6 Nights",
             "promo_code": "ABC123",
-            "promo_discount_price": 1500000,
+            "promo_discount_price": 4500,
             "minimum_claim_price": 1000000,
             "createdAt": "2024-08-01T03:57:04.362Z",
             "updatedAt": "2024-09-06T16:50:35.574Z"
@@ -66,11 +66,11 @@
         {
             "id": "bf2f4635-176e-4d2d-9ae3-579ddf39fa86",
             "title": "Dayara Bugyal",
-            "description": "jalan jalan ke masjid yang ditaklukan muhammad alfatih",
+            "description": "High-altitude meadow, scenic trek, panoramic views of Himalayas.",
             "imageUrl": "",
-            "terms_condition": "good destination ",
+            "terms_condition": "4 Days and 3 Nights",
             "promo_code": "gsaj232",
-            "promo_discount_price": 1000000,
+            "promo_discount_price": 4500,
             "minimum_claim_price": 500000,
             "createdAt": "2024-08-01T03:55:34.394Z",
             "updatedAt": "2024-09-06T16:50:44.166Z"
